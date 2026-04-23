@@ -34,10 +34,12 @@ toggleButton.setAttribute("data-action", "status-toggle");
 function highlightListItems(){
     const selectorList = document.querySelectorAll('li');
     
-    for(let i = 0; i < selectorList.length(); ++i){
+    for(let i = 0; i < selectorList.length; ++i){
         selectorList[i].style.color = "blue";
     }
 }
+
+highlightListItems();
 
 /* ======================================= */
 // --- Tasks 5, 6, 7 & 8: Toggle Functionality ---
